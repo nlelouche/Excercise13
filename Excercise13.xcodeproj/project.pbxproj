@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAA3AF58151282A0001AFA7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA3AF57151282A0001AFA7E /* UIKit.framework */; };
+		EAA3AF5A151282A0001AFA7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA3AF59151282A0001AFA7E /* Foundation.framework */; };
+		EAA3AF5C151282A0001AFA7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA3AF5B151282A0001AFA7E /* CoreGraphics.framework */; };
+		EAA3AF62151282A0001AFA7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EAA3AF60151282A0001AFA7E /* InfoPlist.strings */; };
+		EAA3AF64151282A0001AFA7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3AF63151282A0001AFA7E /* main.m */; };
+		EAA3AF68151282A0001AFA7E /* Ex13AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3AF67151282A0001AFA7E /* Ex13AppDelegate.m */; };
+		EAA3AF6B151282A0001AFA7E /* Ex13MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3AF6A151282A0001AFA7E /* Ex13MasterViewController.m */; };
+		EAA3AF6E151282A0001AFA7E /* Ex13DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA3AF6D151282A0001AFA7E /* Ex13DetailViewController.m */; };
+		EAA3AF71151282A0001AFA7E /* Ex13MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA3AF6F151282A0001AFA7E /* Ex13MasterViewController.xib */; };
+		EAA3AF74151282A0001AFA7E /* Ex13DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAA3AF72151282A0001AFA7E /* Ex13DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAA3AF53151282A0001AFA7E /* Excercise13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Excercise13.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAA3AF57151282A0001AFA7E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EAA3AF59151282A0001AFA7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EAA3AF5B151282A0001AFA7E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EAA3AF5F151282A0001AFA7E /* Excercise13-Info.plist */ = {isa = PBXFileReference; path = "Excercise13-Info.plist"; sourceTree = "<group>"; };
+		EAA3AF61151282A0001AFA7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EAA3AF63151282A0001AFA7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EAA3AF65151282A0001AFA7E /* Excercise13-Prefix.pch */ = {isa = PBXFileReference; path = "Excercise13-Prefix.pch"; sourceTree = "<group>"; };
+		EAA3AF66151282A0001AFA7E /* Ex13AppDelegate.h */ = {isa = PBXFileReference; path = Ex13AppDelegate.h; sourceTree = "<group>"; };
+		EAA3AF67151282A0001AFA7E /* Ex13AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex13AppDelegate.m; sourceTree = "<group>"; };
+		EAA3AF69151282A0001AFA7E /* Ex13MasterViewController.h */ = {isa = PBXFileReference; path = Ex13MasterViewController.h; sourceTree = "<group>"; };
+		EAA3AF6A151282A0001AFA7E /* Ex13MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex13MasterViewController.m; sourceTree = "<group>"; };
+		EAA3AF6C151282A0001AFA7E /* Ex13DetailViewController.h */ = {isa = PBXFileReference; path = Ex13DetailViewController.h; sourceTree = "<group>"; };
+		EAA3AF6D151282A0001AFA7E /* Ex13DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex13DetailViewController.m; sourceTree = "<group>"; };
+		EAA3AF70151282A0001AFA7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Ex13MasterViewController.xib; sourceTree = "<group>"; };
+		EAA3AF73151282A0001AFA7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Ex13DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAA3AF501512829F001AFA7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA3AF58151282A0001AFA7E /* UIKit.framework in Frameworks */,
+				EAA3AF5A151282A0001AFA7E /* Foundation.framework in Frameworks */,
+				EAA3AF5C151282A0001AFA7E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAA3AF481512829F001AFA7E = {
+			isa = PBXGroup;
+			children = (
+				EAA3AF5D151282A0001AFA7E /* Excercise13 */,
+				EAA3AF56151282A0001AFA7E /* Frameworks */,
+				EAA3AF54151282A0001AFA7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAA3AF54151282A0001AFA7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAA3AF53151282A0001AFA7E /* Excercise13.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAA3AF56151282A0001AFA7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAA3AF57151282A0001AFA7E /* UIKit.framework */,
+				EAA3AF59151282A0001AFA7E /* Foundation.framework */,
+				EAA3AF5B151282A0001AFA7E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAA3AF5D151282A0001AFA7E /* Excercise13 */ = {
+			isa = PBXGroup;
+			children = (
+				EAA3AF66151282A0001AFA7E /* Ex13AppDelegate.h */,
+				EAA3AF67151282A0001AFA7E /* Ex13AppDelegate.m */,
+				EAA3AF69151282A0001AFA7E /* Ex13MasterViewController.h */,
+				EAA3AF6A151282A0001AFA7E /* Ex13MasterViewController.m */,
+				EAA3AF6C151282A0001AFA7E /* Ex13DetailViewController.h */,
+				EAA3AF6D151282A0001AFA7E /* Ex13DetailViewController.m */,
+				EAA3AF6F151282A0001AFA7E /* Ex13MasterViewController.xib */,
+				EAA3AF72151282A0001AFA7E /* Ex13DetailViewController.xib */,
+				EAA3AF5E151282A0001AFA7E /* Supporting Files */,
+			);
+			path = Excercise13;
+			sourceTree = "<group>";
+		};
+		EAA3AF5E151282A0001AFA7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAA3AF5F151282A0001AFA7E /* Excercise13-Info.plist */,
+				EAA3AF60151282A0001AFA7E /* InfoPlist.strings */,
+				EAA3AF63151282A0001AFA7E /* main.m */,
+				EAA3AF65151282A0001AFA7E /* Excercise13-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAA3AF521512829F001AFA7E /* Excercise13 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA3AF77151282A0001AFA7E /* Build configuration list for PBXNativeTarget "Excercise13" */;
+			buildPhases = (
+				EAA3AF4F1512829F001AFA7E /* Sources */,
+				EAA3AF501512829F001AFA7E /* Frameworks */,
+				EAA3AF511512829F001AFA7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Excercise13;
+			productName = Excercise13;
+			productReference = EAA3AF53151282A0001AFA7E /* Excercise13.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAA3AF4A1512829F001AFA7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = EAA3AF4D1512829F001AFA7E /* Build configuration list for PBXProject "Excercise13" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EAA3AF481512829F001AFA7E;
+			productRefGroup = EAA3AF54151282A0001AFA7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAA3AF521512829F001AFA7E /* Excercise13 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAA3AF511512829F001AFA7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA3AF62151282A0001AFA7E /* InfoPlist.strings in Resources */,
+				EAA3AF71151282A0001AFA7E /* Ex13MasterViewController.xib in Resources */,
+				EAA3AF74151282A0001AFA7E /* Ex13DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAA3AF4F1512829F001AFA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAA3AF64151282A0001AFA7E /* main.m in Sources */,
+				EAA3AF68151282A0001AFA7E /* Ex13AppDelegate.m in Sources */,
+				EAA3AF6B151282A0001AFA7E /* Ex13MasterViewController.m in Sources */,
+				EAA3AF6E151282A0001AFA7E /* Ex13DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EAA3AF60151282A0001AFA7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA3AF61151282A0001AFA7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EAA3AF6F151282A0001AFA7E /* Ex13MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA3AF70151282A0001AFA7E /* en */,
+			);
+			name = Ex13MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		EAA3AF72151282A0001AFA7E /* Ex13DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EAA3AF73151282A0001AFA7E /* en */,
+			);
+			name = Ex13DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EAA3AF75151282A0001AFA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EAA3AF76151282A0001AFA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAA3AF78151282A0001AFA7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Excercise13/Excercise13-Prefix.pch";
+				INFOPLIST_FILE = "Excercise13/Excercise13-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EAA3AF79151282A0001AFA7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Excercise13/Excercise13-Prefix.pch";
+				INFOPLIST_FILE = "Excercise13/Excercise13-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAA3AF4D1512829F001AFA7E /* Build configuration list for PBXProject "Excercise13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA3AF75151282A0001AFA7E /* Debug */,
+				EAA3AF76151282A0001AFA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA3AF77151282A0001AFA7E /* Build configuration list for PBXNativeTarget "Excercise13" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAA3AF78151282A0001AFA7E /* Debug */,
+				EAA3AF79151282A0001AFA7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAA3AF4A1512829F001AFA7E /* Project object */;
+}
