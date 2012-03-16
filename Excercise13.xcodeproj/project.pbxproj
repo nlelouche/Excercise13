@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA7FC1F71513807A008BA2E8 /* TwitterTimeLine.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7FC1F61513807A008BA2E8 /* TwitterTimeLine.m */; };
 		EAA3AF58151282A0001AFA7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA3AF57151282A0001AFA7E /* UIKit.framework */; };
 		EAA3AF5A151282A0001AFA7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA3AF59151282A0001AFA7E /* Foundation.framework */; };
 		EAA3AF5C151282A0001AFA7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAA3AF5B151282A0001AFA7E /* CoreGraphics.framework */; };
@@ -20,19 +21,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA7FC1F51513807A008BA2E8 /* TwitterTimeLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterTimeLine.h; sourceTree = "<group>"; };
+		EA7FC1F61513807A008BA2E8 /* TwitterTimeLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterTimeLine.m; sourceTree = "<group>"; };
 		EAA3AF53151282A0001AFA7E /* Excercise13.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Excercise13.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAA3AF57151282A0001AFA7E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EAA3AF59151282A0001AFA7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EAA3AF5B151282A0001AFA7E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		EAA3AF5F151282A0001AFA7E /* Excercise13-Info.plist */ = {isa = PBXFileReference; path = "Excercise13-Info.plist"; sourceTree = "<group>"; };
+		EAA3AF5F151282A0001AFA7E /* Excercise13-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Excercise13-Info.plist"; sourceTree = "<group>"; };
 		EAA3AF61151282A0001AFA7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EAA3AF63151282A0001AFA7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EAA3AF65151282A0001AFA7E /* Excercise13-Prefix.pch */ = {isa = PBXFileReference; path = "Excercise13-Prefix.pch"; sourceTree = "<group>"; };
-		EAA3AF66151282A0001AFA7E /* Ex13AppDelegate.h */ = {isa = PBXFileReference; path = Ex13AppDelegate.h; sourceTree = "<group>"; };
+		EAA3AF65151282A0001AFA7E /* Excercise13-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Excercise13-Prefix.pch"; sourceTree = "<group>"; };
+		EAA3AF66151282A0001AFA7E /* Ex13AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ex13AppDelegate.h; sourceTree = "<group>"; };
 		EAA3AF67151282A0001AFA7E /* Ex13AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex13AppDelegate.m; sourceTree = "<group>"; };
-		EAA3AF69151282A0001AFA7E /* Ex13MasterViewController.h */ = {isa = PBXFileReference; path = Ex13MasterViewController.h; sourceTree = "<group>"; };
+		EAA3AF69151282A0001AFA7E /* Ex13MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ex13MasterViewController.h; sourceTree = "<group>"; };
 		EAA3AF6A151282A0001AFA7E /* Ex13MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex13MasterViewController.m; sourceTree = "<group>"; };
-		EAA3AF6C151282A0001AFA7E /* Ex13DetailViewController.h */ = {isa = PBXFileReference; path = Ex13DetailViewController.h; sourceTree = "<group>"; };
+		EAA3AF6C151282A0001AFA7E /* Ex13DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ex13DetailViewController.h; sourceTree = "<group>"; };
 		EAA3AF6D151282A0001AFA7E /* Ex13DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ex13DetailViewController.m; sourceTree = "<group>"; };
 		EAA3AF70151282A0001AFA7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Ex13MasterViewController.xib; sourceTree = "<group>"; };
 		EAA3AF73151282A0001AFA7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Ex13DetailViewController.xib; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				EAA3AF6F151282A0001AFA7E /* Ex13MasterViewController.xib */,
 				EAA3AF72151282A0001AFA7E /* Ex13DetailViewController.xib */,
 				EAA3AF5E151282A0001AFA7E /* Supporting Files */,
+				EA7FC1F51513807A008BA2E8 /* TwitterTimeLine.h */,
+				EA7FC1F61513807A008BA2E8 /* TwitterTimeLine.m */,
 			);
 			path = Excercise13;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 				EAA3AF68151282A0001AFA7E /* Ex13AppDelegate.m in Sources */,
 				EAA3AF6B151282A0001AFA7E /* Ex13MasterViewController.m in Sources */,
 				EAA3AF6E151282A0001AFA7E /* Ex13DetailViewController.m in Sources */,
+				EA7FC1F71513807A008BA2E8 /* TwitterTimeLine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +296,7 @@
 				EAA3AF79151282A0001AFA7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,12 +7,13 @@
 //
 
 #import "Ex13MasterViewController.h"
-
 #import "Ex13DetailViewController.h"
+
 
 @implementation Ex13MasterViewController
 
 @synthesize detailViewController = _detailViewController;
+@synthesize twitterTweets;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -20,6 +21,10 @@
     if (self) {
         self.title = NSLocalizedString(@"Master", @"Master");
     }
+    
+    twitterTweets = [[TwitterTimeLine alloc] init]; 
+	[twitterTweets startLoadingTweets];
+    
     return self;
 }
 							
@@ -94,12 +99,17 @@
     
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
     if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
 
     // Configure the cell.
-    cell.textLabel.text = NSLocalizedString(@"Detail", @"Detail");
+    cell.textLabel.text = @"Tweet"; 
+    cell.detailTextLabel.text = [twitterTweets.tweets 
+								 objectAtIndex:indexPath.row]; 
+	cell.detailTextLabel.font = [UIFont fontWithName:@"Arial" size:12]; 
+	cell.detailTextLabel.numberOfLines = 4; 
+    
     return cell;
 }
 
