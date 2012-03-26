@@ -14,6 +14,6 @@
 @interface Ex13MasterViewController : UITableViewController
 
 @property (nonatomic, retain) TwitterTimeLine *twitterTweets;
-@property (strong, nonatomic) Ex13DetailViewController *detailViewController;
+@property (nonatomic, retain) Ex13DetailViewController *detailViewController;
 
 @end
